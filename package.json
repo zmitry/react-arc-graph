@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "module": "dist/react-arc-graph.esm.js",
   "typings": "dist/index.d.ts",
-  "homepage": "https://zmitry.github.io/react-arg-graph",
+  "homepage": "https://zmitry.github.io/react-arc-graph",
   "files": [
     "dist"
   ],
