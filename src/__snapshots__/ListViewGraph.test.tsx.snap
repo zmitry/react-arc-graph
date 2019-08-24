@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ListViewGraph computes correct data with memoization 1`] = `
+exports[`ArcGraph computes correct data with memoization 1`] = `
 Object {
   "links": Array [
     Object {

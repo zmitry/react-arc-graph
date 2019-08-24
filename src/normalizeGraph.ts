@@ -1,6 +1,6 @@
 import { range } from 'lodash';
 
-import { IEdgeInternal } from './ListViewGraph';
+import { IEdgeInternal } from './ArcGraph';
 
 export function getEdgeSides(edges: IEdgeInternal[]) {
   // make kv map for edges value is nodes indexes and values in array of edges which cross this coordinates

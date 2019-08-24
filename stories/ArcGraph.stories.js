@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { ListViewGraph } from '../src/ListViewGraph';
+import { ArcGraph } from '../src/ArcGraph';
 import { nodesFromEdges } from '../src/utils';
 function Wrapper({ children }) {
   return (
@@ -37,7 +37,7 @@ const data = [
 storiesOf('Arc graph', module)
   .add('basic', () => (
     <Wrapper>
-      <ListViewGraph
+      <ArcGraph
         edges={data}
         nodes={nodesFromEdges(data)}
         buildInterpolators={() => ({
@@ -48,7 +48,7 @@ storiesOf('Arc graph', module)
   ))
   .add('ui variations', () => (
     <Wrapper>
-      <ListViewGraph
+      <ArcGraph
         edges={data}
         nodeLinkProps={{
           // basic angle
@@ -62,7 +62,7 @@ storiesOf('Arc graph', module)
           padLimitDiffFactor: 3,
         }}
       />
-      <ListViewGraph
+      <ArcGraph
         edges={data}
         nodeLinkProps={{
           angleFactor: 10,
@@ -77,7 +77,7 @@ storiesOf('Arc graph', module)
           padLimitDiffFactor: 3,
         }}
       />
-      <ListViewGraph
+      <ArcGraph
         edges={data}
         paddingFinderOptions={{
           defaultPad: 1,
@@ -97,7 +97,7 @@ storiesOf('Arc graph', module)
           padLimitDiffFactor: 3,
         }}
       />
-      <ListViewGraph
+      <ArcGraph
         edges={data}
         paddingFinderOptions={{
           defaultPad: 2,

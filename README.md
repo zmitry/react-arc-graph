@@ -1,10 +1,10 @@
-# React arg graph
+# React arc graph
 
 graph opinionated lib for drawing arg graph diagrams
 
 # Usage
 
-See [ListViewGraph.stories.js](https://github.com/zmitry/react-arc-graph/blob/master/stories/ListViewGraph.stories.js)
+See [ArcGraph.stories.js](https://github.com/zmitry/react-arc-graph/blob/master/stories/ArcGraph.stories.js)
 
 # Demo
 

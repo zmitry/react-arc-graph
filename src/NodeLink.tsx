@@ -2,7 +2,7 @@ import { line as lineGenerator, curveMonotoneY } from 'd3-shape';
 import { ScaleLinear } from 'd3-scale';
 import React from 'react';
 
-import { IEdgeInternal } from './ListViewGraph';
+import { IEdgeInternal } from './ArcGraph';
 
 const line = lineGenerator().curve(curveMonotoneY);
 function linePath({ x, y, h, w, z = w, d = 1 }) {

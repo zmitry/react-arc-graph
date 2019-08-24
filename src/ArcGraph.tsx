@@ -40,11 +40,11 @@ const defaultProps = {
 
 type IDefaultPropsType = typeof defaultProps;
 
-interface IListViewGraphProps extends IDefaultPropsType {
+interface IArcGraphProps extends IDefaultPropsType {
   edges: IEdge[];
 }
 
-export class ListViewGraph extends React.Component<IListViewGraphProps> {
+export class ArcGraph extends React.Component<IArcGraphProps> {
   static defaultProps = defaultProps;
   render() {
     const {

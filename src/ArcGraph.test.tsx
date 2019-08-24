@@ -1,11 +1,11 @@
 // import React from 'react';
 // import { data1, data2 } from './fixtures';
-// import { computeGraphData, ListViewGraph } from './ListViewGraph';
+// import { computeGraphData, ArcGraph } from './ArcGraph';
 // import { NodeLink } from './NodeLink';
 // import { defaultPaddingFinderOptions } from './normalizeGraph';
 // import { nodesFromEdges } from './utils';
 
-// xdescribe('ListViewGraph', () => {
+// xdescribe('ArcGraph', () => {
 //   it('computes correct data with memoization', () => {
 //     const params = {
 //       edges: data2,
@@ -27,7 +27,7 @@
 
 //   it('renders data without errors', () => {
 //     const ref = mount(
-//       <ListViewGraph
+//       <ArcGraph
 //         edges={data1}
 //         nodes={nodesFromEdges(data1)}
 //         buildInterpolators={() => ({

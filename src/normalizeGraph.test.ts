@@ -22,7 +22,7 @@ export const createFakeNodesIds = nodes => nodes.map(node => node.fakeId);
 const createNodesIds = edges =>
   createFakeNodesIds(createFakeFromToNodes(nodesFromEdges(edges)));
 
-describe('listViewGraph', () => {
+describe('ArcGraph', () => {
   it('finds sides', () => {
     const edges = mapEdges({
       edges: data1,
