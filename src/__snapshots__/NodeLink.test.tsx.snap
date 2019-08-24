@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Node link renders with correct data with self link 1`] = `
+Array [
+  <path
+    d="M10,11C6.666666666666667,11,0,4.333333333333333,0,1C0,-2.333333333333333,6.666666666666667,-9,10,-9C13.333333333333332,-9,20,-2.333333333333333,20,1C20,4.333333333333333,13.333333333333332,11,10,11"
+    data-from="1"
+    data-to="1"
+    fill="none"
+    markerEnd="url(#1marker1)"
+    stroke="url(#1linear1)"
+    strokeWidth={2}
+  />,
+]
+`;
