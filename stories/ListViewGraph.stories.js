@@ -34,8 +34,8 @@ const data = [
   ['9', '11'],
 ].map(el => ({ from: el[0], to: el[1] }));
 
-storiesOf('Arg graph', module)
-  .add('left sided', () => (
+storiesOf('Arc graph', module)
+  .add('basic', () => (
     <Wrapper>
       <ListViewGraph
         edges={data}
@@ -43,19 +43,6 @@ storiesOf('Arg graph', module)
         buildInterpolators={() => ({
           interpolateY: () => 10,
         })}
-      />
-    </Wrapper>
-  ))
-
-  .add('basic auto sided', () => (
-    <Wrapper>
-      <ListViewGraph
-        edges={data}
-        paddingFinderOptions={{
-          defaultPad: 2,
-          padStep: 2,
-          allowOneSepIntersections: true,
-        }}
       />
     </Wrapper>
   ))
